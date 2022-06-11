@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "Hands on with express app",
   "main": "index.js",
-  "engines":{
-    "node":"16.14.0",
+  "engines": {
+    "node": "16.14.0",
     "npm": "8.3.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "SAADHYA",
   "license": "ISC",
   "dependencies": {
+    "cookie-session": "^2.0.0",
     "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
